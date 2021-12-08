@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    background-image: linear-gradient(rgb(0, 0, 0) 10%, rgb(83, 83, 83));
+}
+
+#banner {
+    width: 16%;
+    padding: 2rem 2rem 2rem 4rem;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+#sobre {
+    font-size: 5rem;
+    color: white;
+    margin: 0 0 2rem;
+}
+
+#agenda {
+    font-size: 5rem;
+    color: white;
+    margin: 0 0 2rem;
+}
+
+#videos {
+    font-size: 5rem;
+    color: white;
+    margin: 0 0 2rem;
+}
+
+#fotos {
+    font-size: 5rem;
+    color: white;
+    margin: 0 0 2rem;
+}
+
+#redes {
+    font-size: 5rem;
+    color: white;
+    margin: 0 0 2rem;
+}
+
+#contato {
+    font-size: 5rem;
+    color: white;
+    margin: 0 0 2rem;
+}
+
+#loja {
+    font-size: 5rem;
+    color: white;
+    margin: 0 0 2rem;
+}
+
+.container {
+    margin: 3rem 2rem 3rem 2rem;
+}
+
+header {
+    background: #000000;
+}
+
+.menu {
+    position: relative;
+    width: auto;
+    margin: 0 4rem 0 0;
+}
+
+nav {
+    position: absolute;
+    top: 11rem;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0 0, 5rem;
+    text-decoration: none;
+}
+
+.calendario {
+    text-align: center;
+}
+
+.ultimo-video {
+    text-align: center;
+}
+
+.ultimo-video iframe {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.outros-videos {
+    text-align: center;
+}
+
+.outros-videos iframe {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.redes-logo img {
+    width: 14%;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.redes-logo {
+    text-align: center;
+}

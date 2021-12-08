@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/glider.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com">
+    <link href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Black Sirens</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <img id="banner" src="img/logo.jpg">
+
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#agenda">Agenda</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#fotos">Fotos</a></li>
+                    <li><a href="#redes">Redes Sociais</a></li>
+                    <li><a href="#loja">Loja</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1 id="sobre">Black Sirens</h1>
+        <p>A banda Black Sirens inicialmente tinha como repertório um tributo para a grande banda de Seatle, Pearl Jam. A banda tocou por diversos palcos tocando os melhores hits da banda, porém a pandemia veio com tudo e decisões foram tomadas, inclusive
+            a qual mudaria o repertório da banda por completo, incluindo não só músicas do Pearl Jam mas também como músicas das bandas Nirvana, Alice In Chains, Stone Temple Pilots, Bush, entre outras grandes bandas que fizeram o seu nome na década de
+            noventa com o famoso gênero musical
+            <strong>GRUNGE</strong>.
+        </p>
+    </div>
+
+    <div class="container">
+        <h1 id="agenda">Agenda</h1>
+        <p>Aqui reservamos um espaço com nossa agenda de shows/participações para vocês ficarem sempre ligados!</p>
+        <div class="calendario">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FSao_Paulo&mode=MONTH&src=YWxwMGJkN2U3NmgyNmVub2E1azNiNHJsN2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23B39DDB" style="border-width:0" width="800"
+                height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 id="contato">Contato</h1>
+        <p>Siga @banda_blacksirens em todas as redes socias!</p>
+        <p>Contate-nos para marcamos um showzão no numero <strong>(19) 99169-4413</strong></p>
+        <p>Redes sociais dos membros da banda:</p>
+    </div>
+
+    <section class="container">
+        <h1 id="videos">Vídeos</h1>
+        <p>Último vídeo!</p>
+        <div class="ultimo-video">
+            <iframe width="1000" height="563" src="https://www.youtube.com/embed/b8WHp7fT1C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>Outros vídeos!</p>
+        <div class="outros-videos">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/v24KfxApeAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/uFoVsNUCP3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/9ZfkaYNmgLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/ctnbBOCjHUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="glider-container">
+            <h1 id="fotos">Fotos</h1>
+            <p>Algumas fotos de ensaios/apresentações!</p>
+
+            <div class="glider">
+                <div><img src="img/imagens carrosel/1.jpeg"></div>
+                <div><img src="img/imagens carrosel/2.jpeg"></div>
+                <div><img src="img/imagens carrosel/3.jpeg"></div>
+                <div><img src="img/imagens carrosel/4.jpeg"></div>
+            </div>
+
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+        </div>
+
+
+        <button class="glider-next">
+            <i class="fa fa-chevon-right"></i>
+        </button>
+
+        <div id="dots class=" glider-dots></div>
+    </section>
+
+    <script src="js/glider.min.js"></script>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 1,
+            dots: '#dots',
+            draggable: true,
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            }
+        });
+    </script>
+
+    <div class="container">
+        <h1 id="redes">Redes Sociais</h1>
+        <p>Nos sigam em nossas redes!</p>
+        <div class="redes-logo">
+            <img src="img/instagram.png">
+            <img src="img/facebook.png">
+            <img src="img/youtube.png">
+            <img src="img/whatsapp.png">
+        </div>
+        <p>Redes sociais dos membros da banda!</p>
+    </div>
+
+    <div class="container">
+        <h1 id="loja">Loja</h1>
+        <p>Aqui estão alguns produtos disponíveis em nossa loja oficial!</p>
+        <p>EM BREVE!</p>
+    </div>
+
+</body>
+
+</html>
